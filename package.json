@@ -1,6 +1,6 @@
 {
-  "name": "coordinate-converter",
-  "version": "1.0.0",
+  "name": "geoguide",
+  "version": "1.0.1",
   "description": "This Would Retrive the coordinates of country,state,city,etc",
   "main": "index.js",
   "directories": {
