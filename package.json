@@ -1,0 +1,27 @@
+{
+  "name": "coordinate-converter",
+  "version": "1.0.0",
+  "description": "This Would Retrive the coordinates of country,state,city,etc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhavinOndhiya/country-coordinate-converter.git"
+  },
+  "author": "Bhavin Ondhiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhavinOndhiya/country-coordinate-converter/issues"
+  },
+  "homepage": "https://github.com/BhavinOndhiya/country-coordinate-converter#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "q": "^1.5.1",
+    "superagent": "^8.1.2"
+  }
+}
