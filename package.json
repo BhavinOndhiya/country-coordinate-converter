@@ -1,12 +1,13 @@
 {
   "name": "geoguide",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "This Would Retrive the coordinates of country,state,city,etc",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/BhavinOndhiya/country-coordinate-converter#readme",
   "dependencies": {
     "axios": "^1.6.7",
+    "geoguide": "^1.1.7",
     "q": "^1.5.1",
     "superagent": "^8.1.2"
   }

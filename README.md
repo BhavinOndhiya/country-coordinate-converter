@@ -8,7 +8,7 @@ You can install this package via npm. Make sure you have Node.js installed on yo
 
 ```json
 {
-npm install openstreetmap-geocoder
+npm install geoguide
 }
 ```
 
@@ -17,18 +17,19 @@ npm install openstreetmap-geocoder
 
 To use this package, require it in your Node.js application and call the `fetchCoordinates` function with the address you want to fetch coordinates for.
 ```json
-const fetchCoordinates = require('openstreetmap-geocoder');
+const fetchCoordinates = require('geoguide');
 
 fetchCoordinates('changa,Anand,Gujarat')
 .then(coordinates => {
 console.log('Coordinates:', coordinates);
+
 })
 .catch(error => {
 console.error('Error:', error.message);
 });
 ```
 
-Replace the address string `'changa,Anand,Gujarat'` with the address you want to fetch coordinates for.
+Replace the address string `'Anand,Gujarat'` with the address you want to fetch coordinates for.
 
 ## API
 
